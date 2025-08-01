@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "builds": [{ "src": "api/auth_proxy.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/auth_proxy", "dest": "/api/auth_proxy.js" }]
+}
